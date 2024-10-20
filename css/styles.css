@@ -170,6 +170,9 @@ button {
   display: block;
   margin: 0 auto;
   min-width: 169px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 }
 
 .btn-order:hover,
